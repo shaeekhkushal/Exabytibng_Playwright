@@ -1,0 +1,5 @@
+testcase,link_name,expected_url
+test_user_will_click_on_the_logo,Exabyting – Impact-oriented IT professionals,https://exabyting.com/
+test_user_will_click_on_our_expertise,Our Expertise – Exabyting,https://exabyting.com/our-expertise/
+test_user_will_click_on_development_practices,Development Practices – Exabyting,https://exabyting.com/development-practices/
+test_user_wil_click_on_fin_tech,Fintech – Exabyting,https://exabyting.com/fintech/
