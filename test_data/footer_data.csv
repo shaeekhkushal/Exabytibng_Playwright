@@ -6,3 +6,5 @@ test_user_will_click_on_process_automation,Process Automation – Exabyting,http
 test_user_will_click_on_about_us,About Us – Exabyting,https://exabyting.com/about-us/
 test_user_will_click_on_join_us,Join Our Team – Exabyting,https://exabyting.com/join-our-team/
 test_user_will_click_on_contact_us,Contact Us – Exabyting,https://exabyting.com/contact-us/
+test_user_will_click_on_our_expertise,Our Expertise – Exabyting,https://exabyting.com/our-expertise/
+test_user_will_click_on_development_practices,Development Practices – Exabyting,https://exabyting.com/development-practices/

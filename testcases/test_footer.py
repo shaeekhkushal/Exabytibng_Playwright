@@ -81,3 +81,25 @@ def test_user_will_click_on_contact_us(set_up) -> None:
     action_obj = Action(page)
     footer_obj.click_contact_us()
     action_obj.verify_current_url()
+
+
+@pytest.mark.header
+def test_user_will_click_on_our_expertise(set_up) -> None:
+    csv_data = reader.read_test_data(test_data_link, Action.get_current_test_name())
+    var = csv_data[0], csv_data[1]
+    page = set_up
+    footer_obj = Footer(page)
+    action_obj = Action(page)
+    footer_obj.click_our_expertise()
+    action_obj.verify_current_url()
+
+
+@pytest.mark.header
+def test_user_will_click_on_development_practices(set_up) -> None:
+    csv_data = reader.read_test_data(test_data_link, Action.get_current_test_name())
+    var = csv_data[0], csv_data[1]
+    page = set_up
+    footer_obj = Footer(page)
+    action_obj = Action(page)
+    footer_obj.click_development_practices()
+    action_obj.verify_current_url()
